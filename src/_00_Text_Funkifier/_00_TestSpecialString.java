@@ -38,6 +38,8 @@ public class _00_TestSpecialString {
 	//   the JUnitTest case below to test your customized Special String.
 	@Test
 	public void testCustomString() {
-	
+		SpecialString hs = new HalfString("August");
+		System.out.println(hs);
+		assertEquals("Aug", hs.toString());
 	}
 }
